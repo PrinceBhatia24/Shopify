@@ -1,0 +1,119 @@
+.bg-custom {
+	background-color: #3d3e46;
+
+}
+#img2{
+position:relative;
+height:30px;
+width:40px;
+top:14%
+}
+.btn-success {
+    color: black;
+    background-color: #94afc6;
+    border-color: #000000;
+}	
+.btn-primary {
+    color: black;
+    background-color: #94afc6;
+    border-color: #000000;
+    }
+    .ml-2, .mx-2 {
+    margin-left: 1.5rem!important;
+}
+.text-white {
+    color: #090909!important;
+}
+
+.text-whitee {
+    color: #f2f2f2!important;
+}
+.img-fluid {
+    max-width: 77%;
+    height: auto;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+}
+#Footer{
+	
+border-top: 0.5px solid white;
+    display: flex;
+    margin: 6px -3px;
+    width: 100%;
+    text-align: center;
+    padding: 2px 165px;
+	
+} 
+#div1{
+	margin:0px 6px;
+}
+#div2{
+	margin:0px 6px;
+}
+#div3{
+	margin:0px 6px;
+}
+#div4{
+	margin:0px 9px;
+}
+
+#div5{
+	position: absolute;
+	right:184px;
+	
+}
+.btn-success {
+    color: #0b0a0a;
+    background-color: #94afc6;
+}
+      #toast {
+        min-width: 300px;
+        position: fixed;
+        bottom: 30px;
+        left: 51%;
+        margin-left: -125px;
+        background-color: #333;
+        padding: 15px;
+        color: white;
+        text-align: center;
+        z-index: 1;
+        font-size: 15px;
+        visibility: hidden; 
+        box-shadow:0px 0px 10px #000;
+      }
+      
+      
+      
+      #toast.display {
+        visibility: visible;
+        animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+      }
+      @keyframes fadeIn {
+        from {
+          bottom: 0;
+          opacity: 0;
+        }
+        to {
+          bottom: 30px;
+          opacity: 1;
+        }
+      }
+      @keyframes fadeOut {
+        from {
+          bottom: 30px;
+          opacity: 1;
+        }
+        to {
+          bottom: 0;
+          opacity: 0;
+        }
+      }
+
+     .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #a9a9a9;
+    border-color: #8e939a;
+      } 
