@@ -361,7 +361,7 @@ body {
 					</button>
 				</div>
 				<div class="modal-body">
-					<form action="AddProduct" method="post">
+					<form action="AddProduct" method="post" enctype="multiprt/form-data">
 
 
 
